@@ -21,6 +21,7 @@ import java.util.Scanner;
 
         public static String returnNumMessage(String input) {
             return(StringUtils.isNumeric(input)) ? "is a nuamber" : "is not a num";
+            //concatonated w sout strings
         }
 
 
